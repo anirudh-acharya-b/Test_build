@@ -1,0 +1,8 @@
+###########################################
+# Xenomai Options
+###########################################
+BR2_LINUX_KERNEL_DEFCONFIG="mw_xenomai_zynq"
+BR2_LINUX_KERNEL_EXT_XENOMAI=y
+# BR2_PACKAGE_XENOMAI_DOCS is not set
+BR2_PACKAGE_XENOMAI_TESTSUITE=y
+BR2_PACKAGE_XENOMAI_VXWORKS_SKIN=y
